@@ -6,7 +6,7 @@
 // -3 -> 9
 // -7 -> 49
 
-Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine()!);
-int result = number * number;
-Console.WriteLine("Квадрат числа = " + result);
+Console.Write("Введите число: "); // подсказка для пользователя
+int number = int.Parse(Console.ReadLine()!); // Console.ReadLine() - считывает с консоли
+int result = number * number; //храним результат вычисления число само на себя
+Console.WriteLine("Квадрат числа = " + result); //конкатенация (склеивание) строки чере
